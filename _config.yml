@@ -4,6 +4,6 @@ theme: jekyll-theme-slate
 show_downloads: true
 
 github:
-  zip_url: https://github.com/Calebe94/tinytools/archive/refs/tags/0.8.0.zip
-  tar_url: https://github.com/Calebe94/tinytools/archive/refs/tags/0.8.0.tar.gz
+  zip_url: https://github.com/Calebe94/tinytools/archive/refs/tags/0.9.0.zip
+  tar_url: https://github.com/Calebe94/tinytools/archive/refs/tags/0.9.0.tar.gz
   repository_url: https://github.com/Calebe94/tinytools
