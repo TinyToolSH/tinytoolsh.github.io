@@ -56,3 +56,4 @@ Gemfile.lock
 # .rubocop-https?--*
 .jekyll-cache/
 .sass-cache/
+_site/
