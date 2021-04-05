@@ -3,7 +3,7 @@ description: Tiny scripts to improve your productivity.
 #theme: jekyll-theme-slate
 theme: jekyll-theme-minimal
 show_downloads: false
-#logo: ./tinytools.jpg
+logo: ./tinytools.jpg
 
 main_url: https://github.com/TinyToolSH/ 
 
