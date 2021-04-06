@@ -5,8 +5,8 @@
 * [tnotes](/projects/tnotes) - A simple dmenu wrapper to create and access your Markdown notes.
 * [tpomodoro](/projects/tpomodoro) - a simple script to manage your time using the pomodoro technique.
 * [tprogbar](/projects/tprogbar) - a simple commandline tool to help you make your our ASCII progress bar.
-* [tsearch](/Projects/tsearch) - A simple tool to request any search the way you want.
-* [ttodo](/projects/ttdodo) - A simple dmenu wrapper to create and access your todo list.
+* [tsearch](/projects/tsearch) - A simple tool to request any search the way you want.
+* [ttodo](/projects/ttodo) - A simple dmenu wrapper to create and access your todo list.
 * [tyaml](/projects/tyaml) - A simple script to parse a yaml file.
 
 ## Installation
