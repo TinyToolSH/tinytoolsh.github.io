@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: post
+project: tyaml
+show_downloads: true
+
 ---
 
 # `tyaml`

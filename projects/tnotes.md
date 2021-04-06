@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: post
+project: tnotes
+show_downloads: true
+
 ---
 
 # tnotes

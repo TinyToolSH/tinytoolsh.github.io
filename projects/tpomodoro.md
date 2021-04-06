@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: post
+project: tpomodoro
+show_downloads: true
+
 ---
 
 # tpomodoro

@@ -1,7 +1,9 @@
 ---
-layout: default
----
+layout: post
+project: tsearch
+show_downloads: true
 
+---
 # tsearch
 
 A simple tool to request web queries the way you want

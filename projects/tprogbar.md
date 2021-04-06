@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
+project: tprogbar
+show_downloads: true
 
 ---
-
 # tprogbar
 
 **tprogbar** is a simple commandline tool to help you make your our ASCII progress bar.
