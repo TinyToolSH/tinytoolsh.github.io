@@ -8,6 +8,7 @@
 * [tsearch](/projects/tsearch) - A simple tool to request any search the way you want.
 * [ttodo](/projects/ttodo) - A simple dmenu wrapper to create and access your todo list.
 * [tyaml](/projects/tyaml) - A simple script to parse a yaml file.
+* [tmdpres](/projects/tmdpres) - A tiny markdown presentation generator.
 
 ## Installation
 
