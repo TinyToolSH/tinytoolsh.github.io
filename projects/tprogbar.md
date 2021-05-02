@@ -4,6 +4,7 @@ project: tprogbar
 show_downloads: true
 
 ---
+
 # tprogbar
 
 **tprogbar** is a simple commandline tool to help you make your our ASCII progress bar.
@@ -50,13 +51,13 @@ An example using every option listed above:
 * Sets the lowest value to `50`;
 * Sets the highest value to `900`;
 * Sets the value to `90`;
-* Change string format to `"{\%s}"`;
+* Change string format to `"{ %s }"`;
 * Change mask character to `"="`
 * Change progress character to `"+"`
 
 ```bash
-$ tprogbar -v 90 -l 50 -g 900 -s 50 -b "{\%s}" -p "+" -m "="
-{+================}
+$ tprogbar -v 90 -l 50 -g 900 -s 50 -b "{ %s }" -p "+" -m "="
+{ +================ }
 ```
 
 # Team

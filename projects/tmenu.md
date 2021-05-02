@@ -1,6 +1,6 @@
 ---
-layout: default
-projetct: tmenu
+layout: post
+project: tmenu
 show_downloads: true
 
 ---
