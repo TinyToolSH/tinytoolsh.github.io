@@ -29,7 +29,7 @@ sudo make install
 
 To uninstall `tbkmk`, just run:
 
-```
+```bash
 sudo make uninstall
 ```
 
