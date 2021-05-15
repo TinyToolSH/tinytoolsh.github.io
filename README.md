@@ -1,4 +1,9 @@
-## Projects
+## TinyToolSH
+
+**TinyToolSH** is an acronym for Tiny Tools written in SHELL script.
+Our projects are designed to improve your productivity in a simple way.
+
+## Our Projects
 
 * [tgoeswall](/projects/tgoeswall) - make Geostationary Operational Environmental Satellite images, your wallpaper.
 * [tmenu](/projects/tmenu) - A simple dmenu wrapper to create menus.
@@ -13,15 +18,15 @@
 
 ## Installation
 
-Edit Makefile to match where to install tinytools and where to place default config files (**tinytools** is installed into the /usr/bin namespace by default).
+Every *tinytool* has a Makefile that you can edit the variables to match where to install it and where to place default config files (the default namespace is `/usr/bin`).
 
-Afterwards enter the following command to install **tinytools** (if necessary as root):
+Afterwards enter the following command to install the **tinytool** (if necessary as root):
 
 ```bash
 make install
 ```
 
-To uninstall **tinytools** you can run:
+To uninstall the **tinytool** you can run:
 
 ```bash
 make uninstall
