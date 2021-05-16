@@ -14,7 +14,7 @@ Our projects are designed to improve your productivity in a simple way.
 * [ttodo](/projects/ttodo) - A simple dmenu wrapper to create and access your todo list.
 * [tyaml](/projects/tyaml) - A simple script to parse a yaml file.
 * [tmdpres](/projects/tmdpres) - A tiny markdown presentation generator.
-* [tbkmk](/projects/tbkmk) - A tiny tool to create url bookmarks in plain texts.
+* [tbm](/projects/tbm) - A tiny tool to create url bookmarks in plain texts.
 
 ## Installation
 
