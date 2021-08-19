@@ -1,7 +1,7 @@
 ---
 layout: post
 project: tbm
-version: 0.4.0
+version: 0.7.1
 show_downloads: true
 
 ---
@@ -66,6 +66,12 @@ Or to list bookmarks by **url** you can use `-u` option:
 
 ```bash
 $ tbm -lu
+```
+
+You can also open `$TBM_FILE` with your default text editor(check [xdg-mime](https://linux.die.net/man/1/xdg-mime)) by using `-o` option:
+
+```bash
+$ tbm -o
 ```
 
 You can change the path of `tbm` storage file by creating an environment variable called `TBM_FILE`.
