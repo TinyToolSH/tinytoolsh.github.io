@@ -1,7 +1,7 @@
 ---
 layout: post
 project: tmenu
-version: 0.1.0
+version: 0.4.0
 show_downloads: true
 
 ---
@@ -46,9 +46,17 @@ quick_menu:
     tmenus: vim $HOME/tmenus
   another_option: notify-send "you get the idea"
 ```
-So when you call tmenu followed by the file, the menu is opened:
-```
-$ tmenu quick_menu.yaml
+The menu file should be assigned to the `TMENU_FILE` variable.
+It can be used as an environment variable at your `.bashrc` or `.zshrc` file.
+So when you call `tmenu`, the menu is opened:
+
+Or `TMENU_FILE` can be assigned when calling `tmenu`:
+
+```sh
+$ export TMENU_FILE=quick_menu.yaml; tmenu
+$ #or
+$ echo "export TMENU_FILE=quick_menu.yaml" >> ~/.bashrc
+$ tmenu
 ```
 <p align="center">
   <img src=".screenshots/example.png" alt="tmenu example">

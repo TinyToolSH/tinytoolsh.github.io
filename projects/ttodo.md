@@ -1,6 +1,7 @@
 ---
 layout: post
 project: ttodo
+version: 0.1.0
 show_downloads: true
 
 ---
