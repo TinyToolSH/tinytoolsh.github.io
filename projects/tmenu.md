@@ -59,7 +59,7 @@ $ echo "export TMENU_FILE=quick_menu.yaml" >> ~/.bashrc
 $ tmenu
 ```
 <p align="center">
-  <img src=".screenshots/example.png" alt="tmenu example">
+  <img src="https://raw.githubusercontent.com/TinyToolSH/tmenu/main/.screenshots/example.png" alt="tmenu example">
 </p>
 
 # Team
