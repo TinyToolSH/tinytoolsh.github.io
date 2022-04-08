@@ -1,7 +1,7 @@
 ---
 layout: post
 project: tbm
-version: 0.7.1
+version: 0.8.0
 show_downloads: true
 
 ---
