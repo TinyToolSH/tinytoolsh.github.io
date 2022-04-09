@@ -1,7 +1,7 @@
 ---
 layout: post
 project: tbm
-version: 0.8.0
+version: 0.9.0
 show_downloads: true
 
 ---
@@ -90,13 +90,16 @@ $ echo "export TBM_FILE=/path/to/tbm/storage/destination" >> $HOME/.zshrc
 
 ## dmenu
 
-You can integrate `tbm` to `dmenu` if you want. We are using it as follows:
+You can integrate `tbm` to `dmenu` if you want. You can use it as follows:
 
 ```bash
 $ tbm -lt | dmenu -p "Bookmarks" | { read title; tbm -luf $title } | { read url; xdg-open $url }
 ```
 
-We recommend you to apply the [case-insensitive](https://tools.suckless.org/dmenu/patches/case-insensitive/) patch to your `dmenu`.
+Or, you can use our [dmenu_tbm](https://github.com/TinyToolSH/tbm/blob/main/dmenu_tbm) wrapper,
+which gives you some management options like `new` bookmark, `remove` an existing bookmark or `copy` to clipboard.
+
+We'd recommend you to apply the [case-insensitive](https://tools.suckless.org/dmenu/patches/case-insensitive/) patch to your `dmenu`.
 
 # Team
 
