@@ -1,0 +1,12 @@
+---
+import { marked } from "marked";
+
+const { slug = "tbm" } = Astro.props;
+
+const response = await fetch(
+  `https://raw.githubusercontent.com/TinyToolSH/${slug}/main/README.md`
+).then((response) => response.text());
+const content = marked.parse(response);
+---
+
+<article set:html={content} />
