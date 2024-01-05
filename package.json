@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npm run readme && astro check && astro build",
     "readme": "node ./src/util/getReadme.js",
     "preview": "astro preview",
     "astro": "astro"
