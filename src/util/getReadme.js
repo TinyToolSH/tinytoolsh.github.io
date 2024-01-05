@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const ignoreRegex = "discussions|docs|.github";
+const exclude = ["discussions", "docs", ".github"];
 
 const repos = await fetch(`https://api.github.com/orgs/tinytoolSH/repos`).then(
   (response) => response.json()
@@ -14,10 +14,15 @@ const fetchReadme = async (slug) =>
 repos.forEach(async (repo) => {
   const slug = repo.name;
 
+  if (exclude.some((t) => slug.includes(t))) {
+    return;
+  }
+
   const frontmatter = `---
 title: ${slug}
 ---
 `;
+
   const readme = await fetchReadme(slug);
 
   fs.writeFile(
