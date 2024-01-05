@@ -1,14 +1,14 @@
 ---
 title: Tiny scripts to improve your productivity
-description: Get started building your docs site with Starlight.
+description: Build and use shell scripts from a collection of commands, to build menus, actions, and everything we could pack in tiny scripts.
 template: splash
 hero:
-  tagline: Build and use shell scripts with our suite of commands to build menus and actions 
+  tagline: Build and use shell scripts from a collection of commands, to build menus, actions, and everything we could pack in tiny scripts
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/tt.svg
   actions:
-    - text: Get Started
-      link: /guides/tbm
+    - text: Check the tools
+      link: /tools/tbm
       icon: right-arrow
       variant: primary
     - text: Get Source
@@ -18,19 +18,28 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
+## Compose your system workflow
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Commands to shortcut to" icon="star">
+		Useful tools for frequently called commands and lists you rely on the daily basis. 
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Quick menus for the system" icon="bars">
+		Easy navigate menus, listing from bookmarks to quick command calls.   
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="From any GUI to TUI" icon="laptop">
+		Rely on them at any enviroment as they're desktop enviroment agnostic and works on both GUI and TUI.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+</CardGrid>
+
+## Minimal and mantainable
+<CardGrid stagger>
+	<Card title="Hackable and extensible" icon="puzzle">
+		The scripts are small. Not only you can verify the code, but reutilize the many modular scripts on other projects. 
+	</Card>
+	<Card title="Easy and portable configs" icon="setting">
+		Use yaml and shell enviroments to invoke dynamic configs on the go.
+	</Card>
+	<Card title="POSIX compliant and small in dependency" icon="open-book">
+		The collection tries to rely on whats most basic and built-in in any linux enviroment.
 	</Card>
 </CardGrid>
