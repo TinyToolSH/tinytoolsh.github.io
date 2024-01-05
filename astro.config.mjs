@@ -19,6 +19,13 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Start Here",
+          items: [
+            { label: "About the tools", link: "/about" },
+            { label: "Setup", link: "/setup" },
+          ],
+        },
+        {
           label: "Tools",
           autogenerate: { directory: "tools" },
         },
