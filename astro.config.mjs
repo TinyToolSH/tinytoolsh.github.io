@@ -5,9 +5,9 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "TinyTools Docs",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/TinyToolSH",
       },
       logo: {
         src: "./src/assets/tinytools_alpha.svg",
@@ -20,14 +20,14 @@ export default defineConfig({
       sidebar: [
         {
           label: "Tools",
-          autogenerate: { directory: "guides" },
+          autogenerate: { directory: "tools" },
         },
         {
           label: "Guides",
-          autogenerate: { directory: "reference" },
+          autogenerate: { directory: "guides" },
         },
         {
-          label: "Snippets",
+          label: "Reference",
           autogenerate: { directory: "reference" },
         },
       ],
