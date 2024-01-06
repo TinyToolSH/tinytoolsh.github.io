@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "npm run readme && astro check && astro build",
-    "readme": "node ./src/util/getReadme.js",
+    "readme": "node ./src/scripts/getReadme.js",
     "preview": "astro preview",
     "astro": "astro"
   },
