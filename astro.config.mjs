@@ -11,7 +11,7 @@ export default defineConfig({
         github: "https://github.com/TinyToolSH",
       },
       logo: {
-        src: "./src/assets/tinytools_alpha.svg",
+        src: "./src/assets/tinytools.svg",
         replacesTitle: true,
       },
       customCss: [
