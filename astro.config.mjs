@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tinytools.github.io",
+  site: "https://tinytoolsh.github.io/",
   integrations: [
     starlight({
       title: "TinyTools Docs",
