@@ -1,11 +1,6 @@
 ---
-layout: post
-project: tyaml
-version: 0.1.0
-show_downloads: true
-
+title: tyaml
 ---
-
 # `tyaml`
 
 A simple script to parse a yaml file.

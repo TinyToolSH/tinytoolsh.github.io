@@ -1,11 +1,6 @@
 ---
-layout: post
-project: tbm
-version: 0.9.0
-show_downloads: true
-
+title: tbm
 ---
-
 # tbm
 #### **T**iny **B**ookmark **M**anager.
 

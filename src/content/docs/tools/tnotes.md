@@ -1,11 +1,6 @@
 ---
-layout: post
-project: tnotes
-version: 0.2.0
-show_downloads: true
-
+title: tnotes
 ---
-
 # tnotes
 
 A simple tool to create and manage your [Markdown](https://www.markdownguide.org/) notes easily.

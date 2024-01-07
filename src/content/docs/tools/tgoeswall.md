@@ -1,11 +1,6 @@
 ---
-layout: post
-project: tgoeswall
-version: 0.1.0
-show_downloads: true
-
+title: tgoeswall
 ---
-
 # Tiny GOES Dynamic Wallpaper
 
 I'm using [GOES](https://www.star.nesdis.noaa.gov/GOES/) images to be my wallpaper, such as macOS Mojave's dynamic wallpaper.

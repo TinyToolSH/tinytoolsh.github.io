@@ -1,0 +1,73 @@
+---
+title: Tiny scripts to improve your productivity
+description: Build and use shell scripts from a collection of commands, to build menus, actions, and everything we could pack in tiny scripts.
+template: doc
+tableOfContents: false
+hero:
+  tagline: Build and use shell scripts from a collection of commands, to build menus, actions, and everything we could pack in tiny scripts
+  image:
+    file: ../../assets/tt.svg
+  actions:
+    - text: Get started
+      link: /about
+      icon: right-arrow
+      variant: primary	  
+    - text: Check the tools
+      link: /tools/tbm
+      icon: information
+    - text: Get Source
+      link: https://github.com/TinyToolSH
+      icon: github
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+**TinyToolSH**, or just tinytools, is an acronym for Tiny Tools written in SHELL script.
+Tinytools is a collection of mostly bash scripts. Our projects are designed to improve your productivity in a simple way.
+
+## Our Projects
+
+### Journalling
+* [tnotes](/tools/tnotes) - A tiny file-based note manager.
+* [ttodo](/tools/ttodo) - A simple dmenu wrapper to create and access your todo list.
+* [tbm](/tools/tbm) - A tiny tool to create url bookmarks in plain texts.
+* [tpomodoro](/tools/tpomodoro) - A simple script to manage your time using the pomodoro technique.
+
+### Menu-driven applications
+* [tsearch](/tools/tsearch) - A simple CLI tool to create and launch search requests.
+* [tlaunch](/tools/tlaunch) - A menu composer to launch commands.
+* [tgit](/tools/tgit) - A command to list all the important repositories in your local system.
+* [tmenu](/tools/tlaunch) -A tiny wrapper for menu utilities with support for dmenu, rofi, fzf and others.
+
+### Utilitites
+* [tyaml](/tools/tyaml) - A simple script to parse a yaml file.
+* [tprogbar](/tools/tprogbar) - A simple commandline tool to help you make your our ASCII progress bar.
+* [tmdpres](/tools/tmdpres) - A tiny markdown presentation generator.
+* [tgoeswall](/tools/tgoeswall) - make Geostationary Operational Environmental Satellite images, your wallpaper.
+
+
+## Compose your system workflow
+<CardGrid stagger>
+	<Card title="Commands to shortcut to" icon="star">
+		Useful tools for frequently called commands and lists you rely on the daily basis. 
+	</Card>
+	<Card title="Quick menus for the system" icon="bars">
+		Easy navigate menus, listing from bookmarks to quick command calls.   
+	</Card>
+	<Card title="From any GUI to TUI" icon="laptop">
+		Rely on them at any enviroment as they're desktop enviroment agnostic and works on both GUI and TUI.
+	</Card>
+</CardGrid>
+
+## Minimal and mantainable
+<CardGrid stagger>
+	<Card title="Hackable and extensible" icon="puzzle">
+		The scripts are small. Not only you can verify the code, but reutilize the many modular scripts on other projects. 
+	</Card>
+	<Card title="Easy and portable configs" icon="setting">
+		Use yaml and shell enviroments to invoke dynamic configs on the go.
+	</Card>
+	<Card title="POSIX compliant and small in dependency" icon="open-book">
+		The collection tries to rely on whats most basic and built-in in any linux enviroment.
+	</Card>
+</CardGrid>

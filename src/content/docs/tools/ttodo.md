@@ -1,11 +1,6 @@
 ---
-layout: post
-project: ttodo
-version: 0.1.0
-show_downloads: true
-
+title: ttodo
 ---
-
 # ttodo
 
 It is a simple script to create and manage your todo list.

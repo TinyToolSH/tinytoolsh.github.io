@@ -1,11 +1,6 @@
 ---
-layout: post
-project: tpomodoro
-version: 0.1.0
-show_downloads: true
-
+title: tpomodoro
 ---
-
 # tpomodoro
 
 This is a simple script to manage your time using the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
